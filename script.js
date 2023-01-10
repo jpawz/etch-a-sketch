@@ -31,3 +31,5 @@ generateButton.addEventListener("click", () => {
   clearGrid();
   generateGrid(squares, cellSize);
 });
+
+generateGrid(16, 50);
