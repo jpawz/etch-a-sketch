@@ -9,9 +9,9 @@
   </head>
   <body>
     <label for="cellSize">Cell size: </label>
-    <input type="number" id="cellSize">
+    <input type="number" id="cellSize" min="1" max="100" value="10">
     <label for="squares">Squares per side: </label>
-    <input type="number" id="squares">
+    <input type="number" id="squares" min="10" max="100" value="20">
     <button id="generate">Generate!</button>
     <div id="grid"></div>
   </body>
